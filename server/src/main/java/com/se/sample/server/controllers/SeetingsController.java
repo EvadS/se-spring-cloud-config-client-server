@@ -15,8 +15,8 @@ public class SeetingsController {
     private static final Logger logger = LoggerFactory.getLogger(ServerApplication.class);
 
     // config client перекрывает стандартные проперти
-    @Value("${spring.cloud.config.server}")
-    private  static String welcomeMessage;
+    //@Value("${spring.cloud.config.server}")
+    //private String welcomeMessage;
 
 
     @Value("${spring.cloud.config.server.git.uri}")
@@ -26,10 +26,10 @@ public class SeetingsController {
      *
      * @return
      */
-    @GetMapping("/message")
-    public String defMessage(){
-        return  welcomeMessage;
-    }
+   // @GetMapping("/message")
+   // public String defMessage(){
+   //     return  welcomeMessage;
+   // }
 
 
     @GetMapping("/git")
