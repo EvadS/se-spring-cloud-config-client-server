@@ -24,6 +24,10 @@ http://localhost:8761/
 server
 http://localhost:8888/client-config/development 
 
+<b>
+апи /client-config будет сгенерино 
+</b>
+
 client 
 http://localhost:8080/msg
 
