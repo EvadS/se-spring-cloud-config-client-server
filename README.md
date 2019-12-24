@@ -17,6 +17,11 @@ Build and Run Eureka server
 Build and Run Config Server Project
 Build and Run Config Client Project
 
+http://localhost:8761/
+http://localhost:8888/ 
+http://localhosy:8080/
+
+
 ###Test REST Endpoint
 eureka 
 http://localhost:8761/
